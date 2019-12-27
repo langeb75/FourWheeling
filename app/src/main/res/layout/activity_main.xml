@@ -36,18 +36,25 @@
         android:layout_below="@+id/image"
         android:fontFamily="sans-serif"
         android:paddingLeft="10dp"
-        android:paddingBottom="20dp"
         android:paddingTop="10dp"
         android:paddingRight="10dp"
         android:text="Up North Trail Riding offers experienced trail guides for riders to enjoy the vast trail systems Michigan has to offer.  You can ride for one mile or many stopping in little towns along the way."
         android:textColor="#ffffff"
         android:textSize="18sp"/>
 
+    <ImageView
+        android:id="@+id/separationline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/multiplelinesedit"
+        android:layout_below="@+id/description"/>
+
+
     <TextView
         android:id="@+id/hours_of_operation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/description"
+        android:layout_below="@+id/separationline"
         android:fontFamily="sans-serif"
         android:paddingRight="10dp"
         android:layout_alignParentRight="true"
@@ -83,7 +90,7 @@
         android:id="@+id/phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/description"
+        android:layout_below="@+id/separationline"
         android:fontFamily="sans-serif"
         android:paddingLeft="10dp"
         android:layout_alignParentLeft="true"
