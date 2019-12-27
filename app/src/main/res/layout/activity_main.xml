@@ -88,4 +88,17 @@
         android:textColor="#ffffff"
         android:textSize="18sp"/>
 
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="untr@gmail.com"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
+
 </RelativeLayout>
