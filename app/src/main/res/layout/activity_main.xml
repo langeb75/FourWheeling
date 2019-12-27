@@ -39,5 +39,41 @@
         android:text="Up North Trail Riding offers experienced trail guides for riders to enjoy the vast trail systems Michigan has to offer."
         android:textColor="#ffffff"
         android:textSize="18sp"/>
-    
+
+    <TextView
+        android:id="@+id/hours_of_operation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:fontFamily="sans-serif"
+        android:paddingRight="10dp"
+        android:layout_alignParentRight="true"
+        android:text="Hours of Operation"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/months"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hours_of_operation"
+        android:fontFamily="sans-serif"
+        android:paddingRight="10dp"
+        android:layout_alignParentRight="true"
+        android:text="April - November"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/months"
+        android:fontFamily="sans-serif"
+        android:paddingRight="10dp"
+        android:layout_alignParentRight="true"
+        android:text="M-S: 9am - 8pm"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
 </RelativeLayout>
