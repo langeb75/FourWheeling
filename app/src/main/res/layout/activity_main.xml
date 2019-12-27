@@ -76,4 +76,16 @@
         android:textColor="#ffffff"
         android:textSize="18sp"/>
 
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="260-501-2683"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
 </RelativeLayout>
